@@ -40,4 +40,4 @@ routes(app);
 //监听端口，启动程序
 app.listen(config.port,function(){
     console.log(`${pkg.name} listening on port ${config.port}`);
-})
+});
